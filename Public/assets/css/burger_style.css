@@ -1,21 +1,22 @@
 .jumbotron {
-    background-image: url("/assets/img/background.jpg");
+    background-image: url("/assets/img/burger2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-top: 10px;
+    background-color: #fff;
 }
 
 .jumbotron > h1 {
-    font-family: 'Creepster', cursive;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #newburger {
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #color-override {
-    color: #fff;
+    color: black
 }
 
 #lefthead {

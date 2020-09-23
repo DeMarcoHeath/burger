@@ -12,7 +12,7 @@
                     <label for="newburger" id="color-override">New Burger:</label>
                     <input type="text" id="newburger" name="burger">
                     {{!-- Create a button in index.handlebars that will submit the user input into the database. --}}
-                    <button type="submit" class="btn btn-success" id="addburger"><span class="fa fa-thumbs-up"></span></button>
+                    <button type="submit" class="btn btn-success" id="addburger"><span class="fa fa-plus-circle"></span></button>
                 </div>
             </form>
         </panel>
@@ -45,7 +45,7 @@
                         {{#each burgers}}
                             {{#if devoured}}
                                 <span><strong> {{this.id}} - {{this.burger_name}} </strong></span>
-                                <button type="button" class="trashburger btn btn-danger" id ="trashbutton" data-id="{{this.id}}" data-newDevoured="{{devour}}"><span class="fa fa-trash"></span></button>
+                                <button type="button" class="trashburger btn btn-danger" id ="trashbutton" data-id="{{this.id}}" data-newDevoured="{{devour}}"><span class="fa fa-arrow-left"></span></button>
                                 <hr>
                             {{/if}}
                         {{/each}}
